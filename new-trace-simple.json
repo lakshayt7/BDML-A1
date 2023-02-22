@@ -1,0 +1,144 @@
+{
+    "data": [
+        {
+            "traceID": "06881d92561e4529aedbac2ae7f014b9",
+            "spans": [
+                {
+                    "traceID": "06881d92561e4529aedbac2ae7f014b9",
+                    "spanID": "aedbac2ae7f014b9",
+                    "operationName": "hello-service.default.svc.cluster.local:8081/*",
+                    "references": [],
+                    "startTime": 1677100080925604,
+                    "duration": 1790,
+                    "tags": [
+                        {
+                            "key": "response_size",
+                            "type": "string",
+                            "value": "30"
+                        },
+                        {
+                            "key": "response_flags",
+                            "type": "string",
+                            "value": "-"
+                        },
+                        {
+                            "key": "guid:x-request-id",
+                            "type": "string",
+                            "value": "a970cdab-3e15-9870-8c09-31038582d254"
+                        },
+                        {
+                            "key": "istio.mesh_id",
+                            "type": "string",
+                            "value": "cluster.local"
+                        },
+                        {
+                            "key": "http.protocol",
+                            "type": "string",
+                            "value": "HTTP/1.1"
+                        },
+                        {
+                            "key": "request_size",
+                            "type": "string",
+                            "value": "0"
+                        },
+                        {
+                            "key": "istio.namespace",
+                            "type": "string",
+                            "value": "default"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "string",
+                            "value": "200"
+                        },
+                        {
+                            "key": "peer.address",
+                            "type": "string",
+                            "value": "10.0.2.15"
+                        },
+                        {
+                            "key": "istio.canonical_revision",
+                            "type": "string",
+                            "value": "latest"
+                        },
+                        {
+                            "key": "upstream_cluster.name",
+                            "type": "string",
+                            "value": "inbound|8081||"
+                        },
+                        {
+                            "key": "user_agent",
+                            "type": "string",
+                            "value": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0"
+                        },
+                        {
+                            "key": "node_id",
+                            "type": "string",
+                            "value": "sidecar~10.1.30.13~lakshay-wait-deployment-696c47db85-2sw57.default~default.svc.cluster.local"
+                        },
+                        {
+                            "key": "upstream_cluster",
+                            "type": "string",
+                            "value": "inbound|8081||"
+                        },
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "http://localhost:30010/favicon.ico"
+                        },
+                        {
+                            "key": "istio.canonical_service",
+                            "type": "string",
+                            "value": "lakshay-wait"
+                        },
+                        {
+                            "key": "component",
+                            "type": "string",
+                            "value": "proxy"
+                        },
+                        {
+                            "key": "downstream_cluster",
+                            "type": "string",
+                            "value": "-"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "server"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "zipkin"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                }
+            ],
+            "processes": {
+                "p1": {
+                    "serviceName": "lakshay-wait.default",
+                    "tags": [
+                        {
+                            "key": "ip",
+                            "type": "string",
+                            "value": "10.1.30.13"
+                        }
+                    ]
+                }
+            },
+            "warnings": null
+        }
+    ],
+    "total": 0,
+    "limit": 0,
+    "offset": 0,
+    "errors": null
+}
