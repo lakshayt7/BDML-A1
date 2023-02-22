@@ -4,8 +4,10 @@ The go code for a web-server displays a simple message for the root and /hi and 
 
 main.go contains the code
 
-Dockerfile is the dockerfile used to create docker image
+Dockerfile is the dockerfile used to create docker image. The following command is used to generate docker image from Dockerfile
 
+    sudo docker build . -t wait-web
+    
 istioconfig.yml is the configuration file used to deploy kubernetes cluster
 use the follwing command to deploy on microk8s based istioconfig.yml file
 
